@@ -48,6 +48,31 @@ uploads/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# 模型文件 (可选择性忽略大模型文件)
+# *.pth
+# *.h5
+# *.onnx
+
+# 数据集文件 (如果太大可以忽略)
+# dataset/
+# *.zip
+
+# 训练输出
+training_output/
+model_checkpoints/
+*.png
+*.jpg
+*.jpeg
+
+# 系统文件
+Thumbs.db
+*.tmp
+.env
+
+# 配置文件
+config.json
+secrets.json
+
 # 模型文件（太大的话）
 # *.pth
 # *.pt
