@@ -1,0 +1,6 @@
+paddlepaddle
+paddlex
+flask
+opencv-python
+numpy
+pillow
