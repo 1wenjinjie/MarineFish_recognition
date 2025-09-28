@@ -11,18 +11,21 @@ echo "=== 海洋鱼类识别项目 - GitHub推送脚本 ==="
 echo ""
 
 # 请在这里修改为你的GitHub仓库信息
-GITHUB_USERNAME="YOUR_USERNAME"  # 替换为你的GitHub用户名
-REPOSITORY_NAME="marine-fish-recognition"  # 替换为你的仓库名
+read -p "请输入你的GitHub用户名: " GITHUB_USERNAME
+read -p "请输入仓库名 (默认: marine-fish-recognition): " REPOSITORY_NAME
+
+# 设置默认仓库名
+if [ -z "$REPOSITORY_NAME" ]; then
+    REPOSITORY_NAME="marine-fish-recognition"
+fi
 
 echo "GitHub用户名: $GITHUB_USERNAME"
 echo "仓库名: $REPOSITORY_NAME"
 echo ""
 
-# 检查是否已经设置了正确的用户名和仓库名
-if [ "$GITHUB_USERNAME" = "YOUR_USERNAME" ]; then
-    echo "❌ 错误: 请先修改脚本中的 GITHUB_USERNAME 为你的GitHub用户名"
-    echo "编辑文件: push_to_github.sh"
-    echo "将 YOUR_USERNAME 替换为你的实际GitHub用户名"
+# 检查是否输入了用户名
+if [ -z "$GITHUB_USERNAME" ]; then
+    echo "❌ 错误: GitHub用户名不能为空"
     exit 1
 fi
 
