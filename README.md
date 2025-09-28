@@ -136,7 +136,7 @@ marine-fish-recognition/
 
 1. **打开Colab Notebook**
    ```
-   https://colab.research.google.com/github/YOUR_USERNAME/marine-fish-recognition/blob/main/colab_fish_training.ipynb
+   https://colab.research.google.com/github/1wenjinjie/MarineFish_recognition/blob/main/colab_fish_training.ipynb
    ```
 
 2. **一键运行所有cells**
@@ -156,8 +156,8 @@ marine-fish-recognition/
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/marine-fish-recognition.git
-   cd marine-fish-recognition
+   git clone https://github.com/1wenjinjie/MarineFish_recognition.git
+   cd MarineFish_recognition
    ```
 
 2. **安装依赖**
@@ -299,7 +299,7 @@ python app_simple.py
 如有问题或建议，欢迎通过以下方式联系：
 
 - 📧 Email: your.email@example.com
-- 🐙 GitHub Issues: [项目Issues页面](https://github.com/YOUR_USERNAME/marine-fish-recognition/issues)
+- 🐙 GitHub Issues: [项目Issues页面](https://github.com/1wenjinjie/MarineFish_recognition/issues)
 
 ---
 
