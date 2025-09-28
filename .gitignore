@@ -60,9 +60,17 @@ uploads/
 # 训练输出
 training_output/
 model_checkpoints/
-*.png
-*.jpg
-*.jpeg
+
+# 图片文件（排除文档用图片）
+# *.png
+# *.jpg
+# *.jpeg
+
+# 允许文档展示图片
+!fish1.png
+!begin.jpg
+!end.jpg
+!fish_*.png
 
 # 系统文件
 Thumbs.db
